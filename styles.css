@@ -244,6 +244,8 @@ nav h2{
    .fullwidth
    {
     /* color: black; */
+    font-size: medium;
+     margin-left: 10px;
      width: 100%;
      text-align: center;
      display: block;
@@ -252,7 +254,7 @@ nav h2{
     margin-top: 20px;
     height: 700px;
     width: 350px;
-    margin-left: 10px;
+    margin-left: 8px;
     border-radius: 5px;
    }
    /* Description h2{
