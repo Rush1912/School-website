@@ -1,0 +1,319 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    align-items:center;
+    /* padding: 10px; */
+    justify-content: flex-start;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:160px;
+}
+.nav-top
+{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+}
+nav ul{
+    display: flex;
+}
+nav img
+{
+      height: 150px;
+      width: 150px;
+      margin-right: 90px;
+}
+nav ul li{
+    list-style:none;
+    margin:5px;
+
+}
+nav h1{
+    font-size: 80px;
+    margin: 0;
+    margin-top: -45px;
+}
+nav h2{
+    text-align: center;
+    margin: 0;
+    margin-top: -30px;
+    /* background-color: aqua; */
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: gray;
+}
+.box button
+{
+    background-color: gray;
+    color: red;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    /* border-style: groove; */
+}
+.box ul a
+{
+    text-decoration: none;
+    color: white;
+
+}
+.box button:hover
+{
+    background-color:#636366;
+    border-radius: 12px;
+    font-size: medium;
+    transition: 0.5s;
+}
+.content
+{
+    width:700px;
+    height:500px;
+    background-color: white;
+    background-image: radial-gradient(circle, #ddd 1px, transparent 1px);
+    margin-left: 50px;
+}
+.fullwidth{
+    color:#f57e76;
+    margin: 5px;
+}
+.content p{
+    color:black;
+    margin:50px 0;
+    font-size: larger;
+    font-weight:bold;
+    line-height: 1.7;
+    margin-right: 10px;
+    text-align: justify;
+}
+.content-wrapper{
+    display: flex;
+}
+.content-wrapper img{
+    padding: 10px;
+    height: 450px;
+    width: 700px;
+    border-radius: 50px;
+}
+.toppers img{
+    height: 700px;
+    width: 1400px;
+    margin-left: 60px;
+    border-radius: 50px;
+}
+.Description
+{
+    background-color:#E3E5E7;
+    /* margin: 40px; */
+    /* border-radius: 50px; */
+}
+.Description h2{
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+.Description p
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    color:black;
+    line-height: 1.6;
+    font-size: large;
+}
+.photogallery 
+{
+   margin-top: 40px;
+   text-align: center;
+   height: 600px;
+   border-radius: 40px;
+   /* background-color: red; */
+   border:5px dashed red;
+   /* margin-bottom: 20px; */
+}
+.ingallery
+{
+    margin-top: 80px;
+     /* margin: 20px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+      gap:7px;
+    justify-items: center;
+    align-items: center;
+}
+.photogallery img
+{
+    height: 350px;
+    width:350px;
+    border-radius: 20px;
+    
+}
+.footer
+{
+    height:50px;
+    background-color: #97215f;
+    color:whitesmoke;
+    margin-top: 20px;
+    /* border-radius: 12px; */
+    font-size: larger;
+    font-weight: bolder;
+}
+.footer a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+@media screen and (max-width:1000px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        align-items:center;
+        /* padding: 10px; */
+        justify-content: flex-start;
+        font-size: 1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height:65px;
+    }
+    nav img
+    {
+      height: 55px;
+      width: 50px;
+      margin-right: 40px;
+      margin-top: 5px;
+    }
+    nav h1{
+        font-size: 15px;
+        margin: 0;
+        
+    }
+    nav h2{
+        text-align: center;
+        margin: 0;
+        font-size: 8px;
+        margin-bottom: 15px;
+        margin-top: -10px;
+        /* background-color: aqua; */
+    }
+    .box button
+    {
+    background-color: gray;
+    color: red;
+    margin: 2px;
+    padding: 2px;
+    border: none;
+    /* border-style: groove; */
+    }
+    .content p{
+        color:black;
+        margin:5px 0;
+        font-size: small;
+        font-weight:bold;
+        line-height: 1.2;
+        margin-right: 5px;
+        text-align: justify;
+    }
+    .content-wrapper img{
+        padding: 5px;
+        height: 400px;
+        width: 200px;
+        border-radius: 5px;
+    }
+    .content
+   {
+    width:140px;
+    height:500px;
+    background-color: white;
+    margin-left: 10px;
+   }
+   .fullwidth
+   {
+    /* color: black; */
+     width: 100%;
+     text-align: center;
+     display: block;
+   }
+   .toppers img{
+    height: 700px;
+    width: 350px;
+    margin-left: 10px;
+    border-radius: 5px;
+   }
+   /* Description h2{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+} */
+.Description
+{
+    margin: 10px;
+    border-radius: 12px;
+    justify-content: center;
+    text-align: center;
+}
+.Description p
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    color:black;
+    line-height: 1.2;
+    font-size: medium;
+    font-weight: bold;
+}
+.photogallery 
+{
+   margin-top: 40px;
+   text-align: center;
+   height: 300px;
+   border-radius: 40px;
+   /* background-color: red; */
+   border:5px dashed red;
+   /* margin-bottom: 20px; */
+}
+.ingallery
+{
+    margin-top: 20px;
+     /* margin: 20px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+      gap:7px;
+    justify-items: center;
+    align-items: center;
+}
+.photogallery img
+{
+    height: 100px;
+    width:100px;
+    border-radius: 2px;
+    
+}
+.footer
+{
+    height:30px;
+    background-color: #97215f;
+    color:whitesmoke;
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: center;
+    justify-content: center;
+    /* border-radius: 12px; */
+    font-size: small;
+    /* font-weight: bolder; */
+}
+}
